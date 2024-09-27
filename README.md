@@ -16,5 +16,6 @@ fsc使用方法
 
   0.需要下载eman2或者其他的配准算法先配准两个重建数据
   
+  python bin/e2proc3d.py --align=rotate_translate_3d_tree:verbose=1 --alignref="reconstruction_1.mrc" --verbose=9 "reconstruction_2.mrc" "reconstruction_2_aligned.mrc"
 
   1.调用fsc.py（文件内对应位置处修改路径）
